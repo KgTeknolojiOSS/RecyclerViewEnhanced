@@ -2,12 +2,20 @@
 Android Library to provide swipe, click and other functionality to RecyclerView
 ## Usage
 
-Add this to your build.gradle file
-
+1-)Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+2-)Add the dependency:
 ```
 dependencies {
-  compile 'com.nikhilpanju.recyclerviewenhanced:recyclerviewenhanced:1.1.0'
+    implementation 'com.github.KgTeknolojiOSS:RecyclerViewEnhanced:2.0.0'
 }
+```
 ```
 
 ## Features
